@@ -1,0 +1,49 @@
+
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://cdn.thinglink.me/api/image/568415204405149698/1240/10/scaletowidth');
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+span{
+  position: relative;
+  right: 8px;
+  bottom: 190px;
+  margin-left: -80px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+p{
+  position: relative;
+  bottom: 60px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+div.scrollmenu {
+  
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+ margin-top:20%;
+ cursor: pointer;
+}
+  
+.scrollmenu::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+img
+{
+  width: 354px;
+  height: 200px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border-bottom: 15px solid;
+}
